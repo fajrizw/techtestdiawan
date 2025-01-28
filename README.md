@@ -168,6 +168,7 @@ app/
 │   ├── Post.php
 │   ├── Category.php
 │   ├── Product.php
+    ├── User.php
 ├── Database/
 │   ├── Migrations/
 │   │   ├── create_tasks_table.php
