@@ -81,14 +81,13 @@ return [
                 PDO::MYSQL_ATTR_SSL_CA => env('MYSQL_ATTR_SSL_CA'),
             ]) : [],
         ],
-
-      'pgsql' => [
+'pgsql' => [
     'driver' => 'pgsql',
-    'host' => gethostbyname(env('DB_HOST', 'db.bokcdqbtgsvnnljpbzkm.supabase.co')),
+    'host' => gethostbyname(env('DB_HOST', 'aws-0-ap-southeast-1.pooler.supabase.com')),
     'port' => env('DB_PORT', '5432'),
     'database' => env('DB_DATABASE', 'postgres'),
-    'username' => env('DB_USERNAME', 'postgres'),
-    'password' => env('DB_PASSWORD', ''),
+    'username' => env('DB_USERNAME', 'postgres.bokcdqbtgsvnnljpbzkm'),
+    'password' => env('DB_PASSWORD', 'TECHTESTDIAWAN'),
     'charset' => 'utf8',
     'prefix' => '',
     'schema' => 'public',
