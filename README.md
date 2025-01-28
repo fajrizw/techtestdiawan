@@ -1,4 +1,4 @@
-# TECH TEST
+# Tech Test
 
 ## Overview
 
@@ -33,6 +33,10 @@ This is a Laravel-based application that provides multiple functionalities, incl
     - One-to-many relationship between categories and products.
     - Fetch categories and their associated products.
 
+## Live Demo
+
+The application is deployed and accessible at: [TechTestDiawan on Vercel](https://techtestdiawan.vercel.app/)
+
 ## Setup and Installation
 
 ### Prerequisites
@@ -48,7 +52,7 @@ This is a Laravel-based application that provides multiple functionalities, incl
 
     ```bash
     git clone https://github.com/fajrizw/techtestdiawan.git
-    cd task-management-api
+    cd techtestdiawan
     ```
 
 2. Install dependencies:
@@ -168,7 +172,7 @@ app/
 │   ├── Post.php
 │   ├── Category.php
 │   ├── Product.php
-    ├── User.php
+│   ├── User.php
 ├── Database/
 │   ├── Migrations/
 │   │   ├── create_tasks_table.php
