@@ -82,9 +82,9 @@ return [
             ]) : [],
         ],
 
-       'pgsql' => [
+      'pgsql' => [
     'driver' => 'pgsql',
-    'host' => env('DB_HOST', 'db.bokcdqbtgsvnnljpbzkm.supabase.co'),
+    'host' => gethostbyname(env('DB_HOST', 'db.bokcdqbtgsvnnljpbzkm.supabase.co')),
     'port' => env('DB_PORT', '5432'),
     'database' => env('DB_DATABASE', 'postgres'),
     'username' => env('DB_USERNAME', 'postgres'),
@@ -93,12 +93,8 @@ return [
     'prefix' => '',
     'schema' => 'public',
     'sslmode' => 'prefer',
-    'options'   => [
-        PDO::ATTR_PERSISTENT => true,
-        PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
-        PDO::ATTR_EMULATE_PREPARES => false,
-    ],
 ],
+
 
 
         'sqlsrv' => [
