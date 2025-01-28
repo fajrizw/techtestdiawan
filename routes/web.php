@@ -6,7 +6,7 @@ use App\Http\Controllers\FormController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\PostController;
 
-Route::get('/welcome', [WelcomeController::class, 'index']);
+Route::get('/', [WelcomeController::class, 'index']);
 
 Route::get('/form', [FormController::class, 'show']);
 Route::post('/form', action:[FormController::class, 'submit']);
