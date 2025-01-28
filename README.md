@@ -1,4 +1,4 @@
-# Task Management API
+# TECH TEST
 
 ## Overview
 
@@ -47,7 +47,7 @@ This is a Laravel-based application that provides multiple functionalities, incl
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/task-management-api.git
+    git clone https://github.com/fajrizw/techtestdiawan.git
     cd task-management-api
     ```
 
