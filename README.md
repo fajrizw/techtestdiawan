@@ -37,6 +37,12 @@ This is a Laravel-based application that provides multiple functionalities, incl
 
 The application is deployed and accessible at: [TechTestDiawan on Vercel](https://techtestdiawan.vercel.app/)
 
+To access specific routes:
+
+-   Welcome page: [GET /welcome](https://techtestdiawan.vercel.app/welcome)
+-   Form page: [GET /form](https://techtestdiawan.vercel.app/form)
+-   Blog posts: [GET /posts](https://techtestdiawan.vercel.app/posts)
+
 ## Setup and Installation
 
 ### Prerequisites
@@ -44,7 +50,7 @@ The application is deployed and accessible at: [TechTestDiawan on Vercel](https:
 -   PHP (>=8.0)
 -   Composer
 -   Laravel
--   MySQL or any preferred database
+-   PostgreSQL or any preferred database
 
 ### Installation Steps
 
